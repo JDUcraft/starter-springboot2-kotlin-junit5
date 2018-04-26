@@ -1,11 +1,11 @@
-package com.octo.dataprocessor
+package com.octo.company
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class DataProcessorApplication
+class CompanyApplication
 
 fun main(args: Array<String>) {
-    runApplication<DataProcessorApplication>(*args)
+    runApplication<CompanyApplication>(*args)
 }
